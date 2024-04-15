@@ -1,0 +1,26 @@
+#count { 
+    color: red;
+    display: block;
+    text-align: center;
+    font-size: 5rem;
+    border: solid 10px black;
+}
+
+.buttoncontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    background-color:darksalmon;
+    color: red;
+    padding: 3%;
+    margin: 2%;
+    border-radius: 10px;
+    font-size: 2rem;
+    border:solid 3px black;
+}
+
+.button:hover{
+    background-color: aqua;
+}

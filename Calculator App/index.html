@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculator</title>
+        <meta name="viewport"content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="calculator-container">
+            <h1 id="Label"> 0 </h1>
+            <div class="main-buttons">
+                <button id="AC" class="button1" onclick="clearDisplay()">AC</button> 
+                <button id="+/-" class="button1" >+/-</button> 
+                <button id="%" class="button1" onclick="appendtoDisplay('%')">%</button> 
+                <button id="div" class="opbutton" onclick="appendtoDisplay('/')">/</button> 
+            </div>
+            <div class="Numbers">
+                <button id="7" class='numberbtn' onclick="appendtoDisplay('7')">7</button>
+                <button id="8" class='numberbtn' onclick="appendtoDisplay('8')">8</button>
+                <button id="9" class='numberbtn' onclick="appendtoDisplay('9')">9</button>
+                <button id="mul" class="opbutton" onclick="appendtoDisplay('*')">*</button> 
+                <br>
+                <button id="4" class='numberbtn' onclick="appendtoDisplay('4')">4</button>
+                <button id="5" class='numberbtn' onclick="appendtoDisplay('5')">5</button>
+                <button id="6" class='numberbtn' onclick="appendtoDisplay('6')">6</button>
+                <button id="-" class="opbutton" onclick="appendtoDisplay('-')">-</button> 
+                <br>
+                <button id="1" class='numberbtn'  onclick="appendtoDisplay('1')">1</button>
+                <button id="2" class='numberbtn' onclick="appendtoDisplay('2')">2</button>
+                <button id="3" class='numberbtn' onclick="appendtoDisplay('3')">3</button>
+                <button id="+"  class="opbutton" onclick="appendtoDisplay('+')">+</button> 
+            </div>
+            <div class="final">
+                <button id="0" class="zerobtn" onclick="appendtoDisplay('0')">0</button>
+                <button id="." class='numberbtn' onclick="appendtoDisplay('.')">.</button>
+                <button id="=" class="opbutton" onclick="calculateResult()">=</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

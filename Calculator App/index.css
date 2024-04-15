@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+
+.calculator-container{
+    color: white;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+}
+
+
+.button1{
+    background-color: gray;
+    border: none;
+    font-size: 2rem;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.opbutton{
+    background-color: orange;
+    color: white;
+    font-size: 2rem;
+    border: none;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.zerobtn{
+    width: 220px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    font-size: 2rem;
+    border: none;
+    border-radius: 50%;
+    height: 100px;
+    margin: 5px;
+}
+
+.numberbtn{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    font-size: 2rem;
+    border: none;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
